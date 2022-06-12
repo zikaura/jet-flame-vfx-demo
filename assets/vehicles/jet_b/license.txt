@@ -1,0 +1,11 @@
+Model Information:
+* title:	Three man light Jet Tron
+* source:	https://sketchfab.com/3d-models/three-man-light-jet-tron-f51a9bbecbf74c3294b88abd55a1de34
+* author:	f3nix (https://sketchfab.com/f3nix)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Three man light Jet Tron" (https://sketchfab.com/3d-models/three-man-light-jet-tron-f51a9bbecbf74c3294b88abd55a1de34) by f3nix (https://sketchfab.com/f3nix) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

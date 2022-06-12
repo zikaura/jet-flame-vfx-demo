@@ -1,0 +1,11 @@
+Model Information:
+* title:	One man light jet tron
+* source:	https://sketchfab.com/3d-models/one-man-light-jet-tron-054e06c1342540d99cd6752e6d65634e
+* author:	f3nix (https://sketchfab.com/f3nix)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "One man light jet tron" (https://sketchfab.com/3d-models/one-man-light-jet-tron-054e06c1342540d99cd6752e6d65634e) by f3nix (https://sketchfab.com/f3nix) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

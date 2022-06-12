@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=2]
+
+[ext_resource path="res://assets/shaders/trail-test-color.gdshader" type="Shader" id=1]
+
+[resource]
+shader = ExtResource( 1 )
+shader_param/color = Color( 0, 0.741176, 1, 1 )
+shader_param/opacity_multiplier = 0.72
+shader_param/energy = 10.0

@@ -1,0 +1,213 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.2.20",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "JA_black_0"
+        },
+        {
+            "mesh" : 1,
+            "name" : "JA_tron_0"
+        },
+        {
+            "children" : [
+                0,
+                1
+            ],
+            "name" : "JA_Root"
+        }
+    ],
+    "materials" : [
+        {
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.0005154599784873426,
+                    0.0005154599784873426,
+                    0.0005154599784873426,
+                    1
+                ],
+                "roughnessFactor" : 0.9998847246170044,
+                "metallicFactor" : 0
+            },
+            "name" : "black"
+        },
+        {
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.9602083563804626,
+                    0.23855797946453094,
+                    0.0006728273001499474,
+                    1
+                ],
+                "roughnessFactor" : 0.7809109687805176,
+                "metallicFactor" : 0
+            },
+            "name" : "tron",
+            "emissiveFactor" : [
+                0.7719716429710388,
+                0.19251181185245514,
+                0.0004902107757516205
+            ]
+        }
+    ],
+    "meshes" : [
+        {
+            "primitives" : [
+                {
+                    "material" : 0,
+                    "indices" : 3,
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    }
+                }
+            ],
+            "name" : "Cylinder.004_black_0"
+        },
+        {
+            "primitives" : [
+                {
+                    "material" : 1,
+                    "indices" : 7,
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    }
+                }
+            ],
+            "name" : "Cylinder.004_tron_0"
+        }
+    ],
+    "accessors" : [
+        {
+            "max" : [
+                1.1140429973602295,
+                0.3702283799648285,
+                0.6353381872177124
+            ],
+            "type" : "VEC3",
+            "min" : [
+                -1.1140432357788086,
+                -0.18397337198257446,
+                -0.492587149143219
+            ],
+            "bufferView" : 0,
+            "count" : 23816,
+            "componentType" : 5126
+        },
+        {
+            "count" : 23816,
+            "componentType" : 5126,
+            "type" : "VEC3",
+            "bufferView" : 1
+        },
+        {
+            "count" : 23816,
+            "componentType" : 5126,
+            "type" : "VEC2",
+            "bufferView" : 2
+        },
+        {
+            "count" : 25032,
+            "componentType" : 5123,
+            "type" : "SCALAR",
+            "bufferView" : 3
+        },
+        {
+            "max" : [
+                1.1140432357788086,
+                0.3702283501625061,
+                0.7253355383872986
+            ],
+            "type" : "VEC3",
+            "min" : [
+                -1.1140429973602295,
+                -0.18397338688373566,
+                -0.4537869095802307
+            ],
+            "bufferView" : 4,
+            "count" : 5079,
+            "componentType" : 5126
+        },
+        {
+            "count" : 5079,
+            "componentType" : 5126,
+            "type" : "VEC3",
+            "bufferView" : 5
+        },
+        {
+            "count" : 5079,
+            "componentType" : 5126,
+            "type" : "VEC2",
+            "bufferView" : 6
+        },
+        {
+            "count" : 5364,
+            "componentType" : 5123,
+            "type" : "SCALAR",
+            "bufferView" : 7
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 285792,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 285792,
+            "byteOffset" : 285792
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 190528,
+            "byteOffset" : 571584
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 50064,
+            "byteOffset" : 762112
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 60948,
+            "byteOffset" : 812176
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 60948,
+            "byteOffset" : 873124
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 40632,
+            "byteOffset" : 934072
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10728,
+            "byteOffset" : 974704
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 985432,
+            "uri" : "scene.bin"
+        }
+    ]
+}
