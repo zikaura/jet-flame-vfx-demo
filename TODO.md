@@ -1,8 +1,8 @@
- - Add ambient space music.
- - Add shooting star-like particle effect to improve motion visuals.
- - Expose properties to be edited from the HUD via sliders and stuff.
- - Add space-like HDRI.
- - Expose the jet glow material and shader properties with a dedicated script.
- - Animate the jet glow material and shader properties.
- - Rewrite shader with better UV control and thrust effect.
- - Record GIF of both the demo scene and the flame effect.
+- - [ ] Add ambient space music.
+- - [ ] Add shooting star-like particle effect to improve motion visuals.
+- - [ ] Expose properties to be edited from the HUD via sliders and stuff.
+- - [ ] Add space-like HDRI.
+- - [ ] Expose the jet glow material and shader properties with a dedicated script.
+- - [ ] Animate the jet glow material and shader properties.
+- - [ ] Rewrite shader with better UV control and thrust effect.
+- - [ ] Record GIF of both the demo scene and the flame effect.
