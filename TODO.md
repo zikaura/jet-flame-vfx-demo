@@ -6,3 +6,4 @@
 - - [ ] Animate the jet glow material and shader properties.
 - - [ ] Rewrite shader with better UV control and thrust effect.
 - - [ ] Record GIF of both the demo scene and the flame effect.
+- - [ ] Animate jet steering in blender and export.
