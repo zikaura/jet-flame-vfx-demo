@@ -1,3 +1,5 @@
+// Based on PolyToots' Jet Flame VFX shader
+
 shader_type spatial;
 render_mode cull_disabled;
 
@@ -12,8 +14,8 @@ uniform vec4 flame_color_a : hint_color;
 uniform vec4 flame_color_b : hint_color;
 
 float _clamp(float val, float lb, float ub) {
-	if (val < lb)         { return lb; }
-	else if (val > ub)    { return ub; }
+	if      (val < lb)  { return lb; }
+	else if (val > ub)  { return ub; }
 	return val;
 }
 

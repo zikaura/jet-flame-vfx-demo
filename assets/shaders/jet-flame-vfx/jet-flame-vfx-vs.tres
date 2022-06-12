@@ -1,6 +1,6 @@
 [gd_resource type="VisualShader" load_steps=43 format=2]
 
-[ext_resource path="res://assets/noise-texture.png" type="Texture" id=1]
+[ext_resource path="res://assets/textures/noise-texture.png" type="Texture" id=1]
 
 [sub_resource type="VisualShaderNodeVec3Constant" id=9]
 constant = Vector3( 0.2, 1, 0 )

@@ -1,15 +1,15 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://assets/flame-shape.glb" type="PackedScene" id=1]
-[ext_resource path="res://shaders/jet-flame-vfx-vs.tres" type="Shader" id=3]
+[ext_resource path="res://assets/resources/meshes/flame-shape.glb" type="PackedScene" id=1]
+[ext_resource path="res://assets/shaders/jet-flame-vfx/jet-flame-vfx-vs.tres" type="Shader" id=3]
 
 [sub_resource type="ShaderMaterial" id=1]
 shader = ExtResource( 3 )
 shader_param/jiggle_strength = 0.0
 shader_param/use_jiggle = 0.0
-shader_param/noise_tiling = Vector3( 4, 0.2, 0 )
+shader_param/noise_tiling = Vector3( 2, 0.2, 0 )
 shader_param/noise_speed = 1.0
-shader_param/thrust = 0.643
+shader_param/thrust = 0.929
 shader_param/FlameColorB = Color( 0, 0.866667, 1, 1 )
 shader_param/FlameColorA = Color( 0, 0.494118, 1, 1 )
 
