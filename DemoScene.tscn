@@ -1,12 +1,17 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://src/MaintainOffset.gd" type="Script" id=1]
 [ext_resource path="res://assets/vehicles/jet_a/JetAScene.tscn" type="PackedScene" id=2]
 [ext_resource path="res://src/JetController.gd" type="Script" id=3]
 [ext_resource path="res://assets/audio/sfx/thrusterFire_000.ogg" type="AudioStream" id=4]
 [ext_resource path="res://assets/scenes/DemoHUD.tscn" type="PackedScene" id=5]
+[ext_resource path="res://assets/scenes/StarParticles.tscn" type="PackedScene" id=6]
 
 [node name="DemoRoot" type="Spatial"]
+
+[node name="DemoHUD" parent="." instance=ExtResource( 5 )]
+
+[node name="StarParticles" parent="." instance=ExtResource( 6 )]
 
 [node name="JetModel" parent="." instance=ExtResource( 2 )]
 transform = Transform( 0.999999, 5.33667e-07, 3.68859e-08, -6.9952e-07, 1, 5.39854e-08, -1.70821e-07, 1.59495e-07, 0.999957, 0, 0, 0 )
@@ -36,5 +41,3 @@ stream = ExtResource( 4 )
 autoplay = true
 emission_angle_enabled = true
 emission_angle_degrees = 20.0
-
-[node name="DemoHUD" parent="." instance=ExtResource( 5 )]
