@@ -1,51 +1,45 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://assets/scenes/JetFlame.tscn" type="PackedScene" id=1]
 [ext_resource path="res://src/TrailRenderer/TrailPropagator.tscn" type="PackedScene" id=2]
 [ext_resource path="res://assets/vehicles/jet_a/scene.gltf" type="PackedScene" id=3]
 [ext_resource path="res://assets/resources/materials/flame-trail-material.tres" type="Material" id=4]
-[ext_resource path="res://assets/resources/animations/SteeringAnim.tres" type="Animation" id=5]
 [ext_resource path="res://assets/vehicles/jet_a/tron.material" type="Material" id=6]
 
 [node name="JetAScene" instance=ExtResource( 3 )]
-transform = Transform( 0.99974, -0.022813, 0, 0.022813, 0.99974, 0, 0, 0, 1, 0, 0, 0 )
 
-[node name="WingTrails" type="Spatial" parent="." index="1"]
+[node name="WingTrails" type="Spatial" parent="JA_Root" index="2"]
 transform = Transform( 1, 1.06488e-09, 0, -1.06488e-09, 1, 0, 0, 0, 1, 0, 0, 0 )
 
-[node name="Trail_L" parent="WingTrails" index="0" instance=ExtResource( 2 )]
+[node name="Trail_L" parent="JA_Root/WingTrails" index="0" instance=ExtResource( 2 )]
 transform = Transform( 1, 1.06488e-09, 0, -1.06488e-09, 1, 0, 0, 0, 1, -1.1, -0.05, 0.602756 )
 width = 0.018
 max_points = 20
 material = ExtResource( 6 )
 
-[node name="Trail_R" parent="WingTrails" index="1" instance=ExtResource( 2 )]
+[node name="Trail_R" parent="JA_Root/WingTrails" index="1" instance=ExtResource( 2 )]
 transform = Transform( 1, 2.92704e-09, 0, -2.92704e-09, 1, 0, 0, 0, 1, 1.10092, -0.0504908, 0.602756 )
 width = 0.018
 max_points = 20
 material = ExtResource( 6 )
 
-[node name="Trail_L2" parent="WingTrails" index="2" instance=ExtResource( 2 )]
+[node name="Trail_L2" parent="JA_Root/WingTrails" index="2" instance=ExtResource( 2 )]
 transform = Transform( 1, 2.34108e-08, 0, -2.34108e-08, 1, 0, 0, 0, 1, -0.681118, 0.36332, 0.363602 )
 width = 0.018
 material = ExtResource( 6 )
 render = false
 
-[node name="Trail_R2" parent="WingTrails" index="3" instance=ExtResource( 2 )]
+[node name="Trail_R2" parent="JA_Root/WingTrails" index="3" instance=ExtResource( 2 )]
 transform = Transform( 1, 3.83081e-08, 0, -3.83081e-08, 1, 0, 0, 0, 1, 0.680819, 0.363769, 0.363602 )
 width = 0.018
 material = ExtResource( 6 )
 render = false
 
-[node name="JetFlameVFX" parent="." index="2" instance=ExtResource( 1 )]
+[node name="JetFlameVFX" parent="JA_Root" index="3" instance=ExtResource( 1 )]
 transform = Transform( -0.05, 0, -1.50996e-08, 0, 0.05, 0, 7.54979e-09, 0, -0.1, 0, -0.0521533, 0.279527 )
-script = null
 
-[node name="FlameTrail" parent="JetFlameVFX" index="1" instance=ExtResource( 2 )]
+[node name="FlameTrail" parent="JA_Root/JetFlameVFX" index="1" instance=ExtResource( 2 )]
 transform = Transform( -1, 8.99399e-10, 1.50996e-07, 8.99399e-10, 1, 1.73627e-16, -1.50996e-07, -1.60254e-17, -1, -0.0137476, 0.0332499, -1.31775 )
 width = 0.025
 max_points = 30
 material = ExtResource( 4 )
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="3"]
-anims/SteeringAnim = ExtResource( 5 )
