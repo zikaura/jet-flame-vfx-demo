@@ -1,0 +1,3 @@
+ - Add ambient space music 
+ - Add shooting star-like particle effect to improve motion visuals
+ - Expose properties to bo edited from the HUD via sliders and stuff
