@@ -5,6 +5,8 @@
 <br></br>
 
 This demo contains an animated scene that demonstrates a few ways the [jet flame effect](https://www.github.com/zikorano/jet-flame-vfx) I made can be used (despite it's hideousness).
+<br></br>
+You can also view it on on your browser [here](https://zikorano.github.io/jet-flame-vfx-demo/) (Github Pages are awesome!)
 <br></br> I also added a few things like flight trails and positional audio to fit the Tron aesthetic.
 
 ## Attributions
