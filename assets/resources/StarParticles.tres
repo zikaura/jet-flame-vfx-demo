@@ -1,9 +1,0 @@
-[gd_resource type="ParticlesMaterial" format=2]
-
-[resource]
-emission_shape = 2
-emission_box_extents = Vector3( 100, 100, 1 )
-direction = Vector3( 0, 0, 1 )
-spread = 0.0
-gravity = Vector3( 0, 0, 0 )
-initial_velocity = 500.0
