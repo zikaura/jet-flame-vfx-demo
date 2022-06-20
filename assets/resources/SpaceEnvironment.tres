@@ -1,0 +1,16 @@
+[gd_resource type="Environment" load_steps=3 format=2]
+
+[ext_resource path="res://assets/textures/environment.png" type="Texture" id=1]
+
+[sub_resource type="PanoramaSky" id=1]
+panorama = ExtResource( 1 )
+
+[resource]
+background_mode = 2
+background_sky = SubResource( 1 )
+dof_blur_near_distance = 2.27
+glow_enabled = true
+glow_strength = 1.14
+glow_bloom = 0.13
+glow_blend_mode = 0
+adjustment_enabled = true

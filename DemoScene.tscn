@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://src/MaintainOffset.gd" type="Script" id=1]
 [ext_resource path="res://assets/vehicles/jet_a/JetAScene.tscn" type="PackedScene" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://assets/audio/sfx/thrusterFire_000.ogg" type="AudioStream" id=4]
 [ext_resource path="res://assets/scenes/DemoHUD.tscn" type="PackedScene" id=5]
 [ext_resource path="res://assets/scenes/StarParticles.tscn" type="PackedScene" id=6]
+[ext_resource path="res://assets/resources/SpaceEnvironment.tres" type="Environment" id=7]
 
 [node name="DemoRoot" type="Spatial"]
 
@@ -16,7 +17,6 @@
 [node name="JetModel" parent="." instance=ExtResource( 2 )]
 transform = Transform( 0.999999, 5.33667e-07, 3.68859e-08, -6.9952e-07, 1, 5.39854e-08, -1.70821e-07, 1.59495e-07, 0.999957, 0, 0, 0 )
 script = ExtResource( 3 )
-speed = 5.0
 
 [node name="CameraSetup1" type="Spatial" parent="JetModel"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.608, 0.483, -1.366 )
@@ -41,3 +41,9 @@ stream = ExtResource( 4 )
 autoplay = true
 emission_angle_enabled = true
 emission_angle_degrees = 20.0
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = ExtResource( 7 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 0.799234, -0.289424, 0.526744, -0.60102, -0.384875, 0.700461, 0, -0.876416, -0.481555, 0, 9, 0 )

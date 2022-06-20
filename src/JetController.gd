@@ -1,13 +1,15 @@
 extends Spatial
 
 onready var animator: AnimationPlayer = $AnimationPlayer
+onready var particles: CPUParticles = get_parent().get_node("StarParticles/Particles")
 onready var camera_setups: Array = [$CameraSetup1, $CameraSetup2]
 
-export(float, 1.0, 10.0) var speed: float = 1.0
+var speed: float = 9.0
 var current_setup_index = 0
 
 func _ready():
 	animator.play("SteeringAnimation")
+	particles.set("direction", Vector3.BACK)
 
 func _process(delta):
 	# Switch camera setup with mouse clicks
@@ -27,5 +29,7 @@ func switch_viewpoint_to(index):
 func on_switch_viewpoint():
 	if current_setup_index == 0:
 		switch_viewpoint_to(1)
+		particles.set("direction", Vector3.FORWARD)
 	else:
 		switch_viewpoint_to(0)
+		particles.set("direction", Vector3.BACK)

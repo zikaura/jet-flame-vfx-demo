@@ -14,20 +14,8 @@ mid_height = 30.0
 
 [node name="StarParticles" type="Spatial"]
 
-[node name="Particles_BKD" type="CPUParticles" parent="."]
-amount = 50
-lifetime = 5.0
-mesh = SubResource( 3 )
-emission_shape = 2
-emission_box_extents = Vector3( 100, 100, 1 )
-direction = Vector3( 0, 0, 1 )
-spread = 0.0
-gravity = Vector3( 0, 0, 0 )
-initial_velocity = 500.0
-
-[node name="Particles_FWD" type="CPUParticles" parent="."]
-amount = 30
-lifetime = 5.0
+[node name="Particles" type="CPUParticles" parent="."]
+amount = 100
 mesh = SubResource( 3 )
 emission_shape = 2
 emission_box_extents = Vector3( 100, 100, 1 )
