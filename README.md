@@ -4,6 +4,11 @@
 </p>
 <br></br>
 
+<p align="center">
+    <img src="assets/prc/jet_screenshot.PNG" alt="Screenshot" title="Jet Flame VFX (Godot Shader)" width="800px">
+</p>
+<br></br>
+
 This demo contains an animated scene that demonstrates a few ways the [jet flame effect](https://www.github.com/zikorano/jet-flame-vfx) I made can be used (despite it's hideousness).
 <br></br>
 You can also view it on on your browser [here](https://zikorano.github.io/jet-flame-vfx-demo/) (Github Pages are awesome!)
