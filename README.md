@@ -1,6 +1,5 @@
 <h2 align="center">Jet Flame VFX Demo</h2>
 <p align="center">
-    <img src="assets/prc/banner.svg" alt="Jet Flame VFX" title="Jet Flame VFX (Godot Shader)" width="800px">
 </p>
 <br></br>
 
